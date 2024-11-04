@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #623F19 5%, #997A58 60%);
+}
+
+.logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 50px; /* Set the logo 50px from the top */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-50%); /* Adjust to perfectly center */
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    width: 414px; /* Set width to 414px */
+    height: 600px; /* Set height to 600px */
+    padding: 20px;
+    background-color: #FFF7EA;
+    border-top-left-radius: 50px; /* Rounded top left corner */
+    border-top-right-radius: 50px; /* Rounded top right corner */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: fixed; /* Fix position */
+    left: 50%; /* Center horizontally */
+    bottom: 0; /* Align the bottom edge with the viewport bottom */
+    transform: translateX(-50%); /* Adjust to center */
+    font-family: 'Poppins', sans-serif; /* Set font to Poppins */
+    margin-top: 296px; /* Add margin to create space above the container */
+}
+
+h2 {
+    color: #6b543f; /* Medium brown */
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #3a2f23; /* Dark brown */
+}
+
+form input {
+    width: 327px; /* Set width to 327px */
+    height: 58px; /* Set height to 58px */
+    padding: 10px; /* You may want to adjust this for better fit */
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+form button {
+    width: 210px;
+    height: 38px;
+    padding: 10px;
+    background-color: #3a2f23; /* Dark brown */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
